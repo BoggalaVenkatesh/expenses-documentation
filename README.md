@@ -1,1 +1,1 @@
-# three tire Architecture
+# Three Tire Architecture
