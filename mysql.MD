@@ -29,6 +29,7 @@ mysql_secure_installation --set-root-pass ExpenseApp@1
 
 we can check data by using client package called mysql.
 
+
 Usually command to connect mysql server is
 
 ```
@@ -41,3 +42,22 @@ But if you client and server both are in a single server, you can simply issue.
 mysql
 ```
 
+
+Once you got mysql prompt, you can use below command to check schemas/databases exist.
+
+```
+show database;
+```
+
+Once you are in particular schema, you can get list of tables.
+
+```
+show tables;
+```
+
+you can get entries of a table using
+
+
+```
+select * from <table_name>;
+```
