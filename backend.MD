@@ -53,4 +53,16 @@ vim /etc/systemd/system/backend.service
 ```
 
 [Unit]
-Description = Backend.Service
+Description = Backend Service
+
+[Service]
+User=expense
+Environment=DB_Host="<MYSQL-SERVER-IPADDRESS>"
+ExecStart=/bin/node /app/index.js
+SyslogIdentifier=backend
+
+[Install]
+WantedBy=multi-user.target
+```
+
+**Note
