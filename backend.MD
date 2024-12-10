@@ -28,3 +28,29 @@ Add application User
 useradd expense
 ```
 
+User enpense is a function / daemon user to run the application. Aprt from that we don't use this user to login to server.
+
+Also, username expense has been picked because it more suites to our prokect mane.
+
+we keep application is one standard location. THis is usual practice that runs in the organization.
+
+Lets setup an app directory.
+
+```
+
+mkdir /app
+```
+
+we need to setup a new service in systemd so systemctl can manage this service
+
+Setup SystemD Expense Backend Service
+
+```
+
+vim /etc/systemd/system/backend.service
+```
+
+```
+
+[Unit]
+Description = Backend Service
