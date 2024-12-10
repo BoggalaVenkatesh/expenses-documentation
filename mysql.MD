@@ -6,8 +6,7 @@ Developer has chosen the database MYSQL. Heance, we are trying to install it up 
 
 Install MySQL Server 8.0.x
 
-'''
+```
 
 dnf install mysql-server -y
-
-'''
+```
