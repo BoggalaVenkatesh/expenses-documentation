@@ -25,4 +25,19 @@ Next, We need to change the default root password in order to start using the da
 mysql_secure_installation --set-root-pass ExpenseApp@1
 ```
 
+## Verfication
+
+we can check data by using client package called mysql.
+
+Usually command to connect mysql server is
+
+```
+mysql -h <host-address> -u root -p<password>
+```
+
+But if you client and server both are in a single server, you can simply issue.
+
+```
+mysql
+```
 
