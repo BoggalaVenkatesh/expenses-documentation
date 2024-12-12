@@ -65,4 +65,12 @@ SyslogIdentifier=backend
 WantedBy=multi-user.target
 ```
 
-**Note
+**Note: Ensure you replace <MYSQL-server-IPADDRESS> with ip address**
+
+Load the service 
+
+```
+
+systemctl daemon-reload
+```
+
