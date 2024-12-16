@@ -132,4 +132,9 @@ load Schama
 ```
 
 mysql -h <mysql-server-ipaddress> -uroot -pExpenseApp@1 < /app/schema/backend.sql
+```
+
+Restart the service.
+
+
 
