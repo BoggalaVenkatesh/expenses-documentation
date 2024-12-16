@@ -58,7 +58,7 @@ cd /app
 unzip /tmp/backend.zip
 ```
 
-Every applciation is developed by development team will have some common software
+Every applciation is developed by development team will have some common software that they use as libraries. THe application also have the same way of defined dependendencies in the application configurations.
 
 we need to setup a new service in systemd so systemctl can manage this service
 
