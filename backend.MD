@@ -58,7 +58,7 @@ cd /app
 unzip /tmp/backend.zip
 ```
 
-
+Every applciation is developed by development team will have some common software
 
 we need to setup a new service in systemd so systemctl can manage this service
 
