@@ -136,5 +136,9 @@ mysql -h <mysql-server-ipaddress> -uroot -pExpenseApp@1 < /app/schema/backend.sq
 
 Restart the service.
 
+```
+
+systemctl restart backend
+```
 
 
