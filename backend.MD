@@ -41,6 +41,9 @@ Lets setup an app directory.
 mkdir /app
 ```
 
+Downlaod the application code to created app directory.
+
+
 we need to setup a new service in systemd so systemctl can manage this service
 
 Setup SystemD Expense Backend Service
@@ -73,6 +76,7 @@ Load the service
 
 systemctl daemon-reload
 ```
+
 start the system service.
 ```
 
@@ -87,3 +91,5 @@ ststemctl enable backend
 For this application to work fully functional we need to load schema to the Database.
 
 We need to load the schema. To load schema we need to install mysql client.
+
+
