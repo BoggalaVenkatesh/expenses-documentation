@@ -120,4 +120,7 @@ For this application to work fully functional we need to load schema to the Data
 
 We need to load the schema. To load schema we need to install mysql client.
 
+to have it installed we can use
+
+
 
