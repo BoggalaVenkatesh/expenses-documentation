@@ -122,5 +122,10 @@ We need to load the schema. To load schema we need to install mysql client.
 
 to have it installed we can use
 
+```
+
+dnf install mysql -y
+```
+
 
 
