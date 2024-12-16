@@ -84,5 +84,6 @@ systemctl start backend
 ststemctl enable backend
 ```
 
-For this application to work fully functional we need to load schama to the Database
+For this application to work fully functional we need to load schema to the Database.
 
+We need to load the schema. To load schema we need to install mysql client.
