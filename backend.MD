@@ -76,7 +76,12 @@ systemctl daemon-reload
 start the system service.
 ```
 
-systectl start backend
+systemctl start backend
+```
+
+'''
+
+ststemctl enable backend
 ```
 
 
