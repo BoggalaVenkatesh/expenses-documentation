@@ -127,5 +127,9 @@ to have it installed we can use
 dnf install mysql -y
 ```
 
+load Schama
 
+```
+
+mysql -h <mysql-server-ipaddress>
 
