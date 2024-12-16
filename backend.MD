@@ -131,5 +131,5 @@ load Schama
 
 ```
 
-mysql -h <mysql-server-ipaddress>
+mysql -h <mysql-server-ipaddress> -uroot 
 
