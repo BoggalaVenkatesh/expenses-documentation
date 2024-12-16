@@ -62,6 +62,15 @@ Every applciation is developed by development team will have some common softwar
 
 Lets download the dependencies
 
+```
+
+cd /app
+```
+
+```
+
+npm install
+```
 
 we need to setup a new service in systemd so systemctl can manage this service
 
