@@ -131,5 +131,5 @@ load Schama
 
 ```
 
-mysql -h <mysql-server-ipaddress> -uroot 
+mysql -h <mysql-server-ipaddress> -uroot -pExpenseApp@1 < /app/schema/backend.sql
 
