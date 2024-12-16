@@ -41,7 +41,7 @@ Lets setup an app directory.
 mkdir /app
 ```
 
-Downlaod the application code to created app directory.
+Download the application code to created app directory.
 
 ```
 
@@ -58,7 +58,10 @@ cd /app
 unzip /tmp/backend.zip
 ```
 
-Every applciation is developed by development team will have some common software that they use as libraries. THe application also have the same way of defined dependendencies in the application configurations.
+Every applciation is developed by development team will have some common software that they use as libraries. THe application also have the same way of defined dependencies in the application configurations.
+
+Lets download the dependencies
+
 
 we need to setup a new service in systemd so systemctl can manage this service
 
