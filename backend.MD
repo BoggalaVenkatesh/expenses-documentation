@@ -84,5 +84,5 @@ systemctl start backend
 ststemctl enable backend
 ```
 
-
+For this application to work fully functional we need to load schama to the Database
 
