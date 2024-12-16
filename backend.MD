@@ -46,6 +46,19 @@ Downlaod the application code to created app directory.
 ```
 
 curl -o /tmp/backend.zip https://expense-builds.s3.us-east-1.amazonaws.com/expense-backed-v2.zip
+```
+
+```
+
+cd /app
+```
+
+```
+
+unzip /tmp/backend.zip
+```
+
+
 
 we need to setup a new service in systemd so systemctl can manage this service
 
