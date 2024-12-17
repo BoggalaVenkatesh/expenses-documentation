@@ -31,7 +31,6 @@ Remove the default content that web server in serving.
 
 rm -rf /usr/share/nginx/html
 ```
-
 Download the frontend content
 ```
 
