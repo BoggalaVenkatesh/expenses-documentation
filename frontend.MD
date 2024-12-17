@@ -37,5 +37,20 @@ Download the frontend content
 
 curl -o /tmp/frontend.zip https://expense-builds.s3.us-east-1.amazonaws.com/expense-frontend-v2.zip
 
+Extract the frontend content.
+```
+cd /usr/share/nginx/html
+```
+```
 
+unzip /tmp/fronend.zip
+```
+
+**Try to access the nginx service once more over the browser and ensure you get expense content.**
+
+create Nginx Reverse Proxy Configuration.
+```
+
+vim /etc/nginx/default.d/expense.Conf
+```
 
