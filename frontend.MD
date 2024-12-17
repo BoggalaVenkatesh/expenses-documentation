@@ -26,4 +26,6 @@ systemctl start nginx
 **Try to access the service ocne over the browser and ensure you get some default content**
 
 
+Remove the default content that web server in serving.
+
 
