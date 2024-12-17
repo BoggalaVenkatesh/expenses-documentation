@@ -11,4 +11,19 @@ Install Nginx
 
 dnf isntall nginx -y
 ```
+Enable nginx
+```
+
+systemctl enable nginx
+```
+
+Start nginx
+```
+
+systemctl start nginx
+```
+
+**Try to access the service ocne over the browser and ensure you get some default content**
+
+
 
