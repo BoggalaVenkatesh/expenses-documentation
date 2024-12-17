@@ -27,5 +27,15 @@ systemctl start nginx
 
 
 Remove the default content that web server in serving.
+```
+
+rm -rf /usr/share/nginx/html
+```
+
+Download the frontend content
+```
+
+curl -o /tmp/frontend.zip https://expense-builds.s3.us-east-1.amazonaws.com/expense-frontend-v2.zip
+
 
 
