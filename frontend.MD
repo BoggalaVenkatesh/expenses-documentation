@@ -35,6 +35,7 @@ Download the frontend content
 ```
 
 curl -o /tmp/frontend.zip https://expense-builds.s3.us-east-1.amazonaws.com/expense-frontend-v2.zip
+```
 
 Extract the frontend content.
 ```
