@@ -31,6 +31,7 @@ Remove the default content that web server in serving.
 
 rm -rf /usr/share/nginx/html
 ```
+
 Download the frontend content
 ```
 
@@ -52,5 +53,17 @@ create Nginx Reverse Proxy Configuration.
 ```
 
 vim /etc/nginx/default.d/expense.Conf
+```
+Add the following content
+```
+
+proxy_http_version 1.1;
+
+location /api/ {proxy_pass http://localhost:8080/; }
+
+location /health {
+    stub_status on;
+    access_log off;
+}
 ```
 
